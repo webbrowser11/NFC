@@ -8,6 +8,7 @@ def inputcell(layer, input):
 
 def CompOut():
     print(Out = Dump1 % 1 + Dump2 % 1)
+    print(f"Dump {Dump1 - Dump1 % 1+Dump2 - Dump2 % 1}")
 
 inputcell(2, Input)
 CompOut()
